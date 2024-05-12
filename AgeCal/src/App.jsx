@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-a23c33 to-black flex justify-center items-center">
       <div className="max-w-md px-8 py-6 bg-white shadow-lg rounded-lg">
-        <h1 className="text-3xl font-semibold mb-4 text-center">AGE CALCULATOR</h1>
+        <h1 className="text-3xl font-semibold mb-4 text-center">Age calculator</h1>
         {/* Render AgeCalculatorForm only if showForm is true */}
         {showForm && <AgeCalculatorForm CalculateAge={CalculateAge} />}
         {/* Render AgeResults only if age is not null */}
