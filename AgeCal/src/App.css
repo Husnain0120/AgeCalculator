@@ -1,0 +1,18 @@
+body {
+    position: relative;
+    background-image: url("https://img.freepik.com/free-photo/girl-laughing-holding-guitar_23-2148504909.jpg?t=st=1715517605~exp=1715521205~hmac=9b56d455e7ecadfc4e6fa9b300c5add0d6606e257db2cc15a66d6c56d2ff8d8f&w=900");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(196,98,74);
+    background: linear-gradient(180deg, rgba(196,98,74,0.017331932773109293) 0%, rgba(0,0,0,0) 70%, rgba(196,98,74,0.8492647058823529) 100%);    pointer-events: none; /* Prevent the pseudo-element from capturing mouse events */
+}
